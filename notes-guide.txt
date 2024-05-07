@@ -1,0 +1,17 @@
+Criando Projeto e Integrando o Jest
+
+npx create-next-app@latest my-project-name
+npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
+npm i -D ts-jest
+npm i -D ts-node
+npm i -D eslint-plugin-jest-dom eslint-plugin-testing-library
+package.json  ->  "scripts": {
+			"test": "jest",
+   		           "test:watch": "jest --watchAll"
+		        }
+criar  ->  jest.config.ts  (copiar exemplo)
+criar  ->  jest.setup.js  (copiar exemplo)
+.eslintrc.json  ->  (copiar exemplo)
+npm i --save-dev @types/jest
+
+//--------------------
