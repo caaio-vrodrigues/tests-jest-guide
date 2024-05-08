@@ -1,9 +1,11 @@
-import { HelloComp } from "@/components/HelloComp";
+'use client';
+
+import { MockFuncArticle } from "@/components/mock-func/MockFuncArticle";
 
 export default function Home() {
   return (
     <main>
-      <HelloComp/>
+      <MockFuncArticle/>
     </main>
   );
 };
