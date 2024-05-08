@@ -1,11 +1,11 @@
 'use client';
 
-import { MockFuncArticle } from "@/components/mock-func/MockFuncArticle";
+import { IntegrationTest } from "@/components/integration/IntegrationTest";
 
 export default function Home() {
   return (
     <main>
-      <MockFuncArticle/>
+      <IntegrationTest/>
     </main>
   );
 };

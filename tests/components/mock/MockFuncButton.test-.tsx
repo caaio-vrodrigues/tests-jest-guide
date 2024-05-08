@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom';
 import { fireEvent, render, screen } from '@testing-library/react';
 
-import { MockFuncButton } from '@/components/mock-func/MockFuncButton';
+import { MockFuncButton } from '@/components/mock/MockFuncButton';
 
 const mockFunc = jest.fn();
 
